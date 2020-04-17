@@ -56,9 +56,9 @@ app.get('/cancel', (req, res) => {
     res.render('cancel.hbs');
 });
 
-// app.get('/update', (req, res) => {
-//     res.render('update.hbs');
-// });
+app.get('/update', (req, res) => {
+    res.render('update.hbs');
+});
 
 app.get('*', (req, res) => {
     res.send("<br><center><h1>OOPS!!! Something Wrong happened</h1><center>")

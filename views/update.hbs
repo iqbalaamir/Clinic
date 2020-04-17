@@ -1,0 +1,39 @@
+<html>
+    <head>
+        {{>head}}
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light align-items-center">
+  <a class="navbar-brand" href="#">Clinic</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link " href="../">Home</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="../about">About Us</a>
+      </li>       
+         <li class="nav-item">
+        <a class="nav-link" href="../doc">Doctors Appointment</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="../cancel">Cancelled Appointment</a>
+      </li>       
+      <li class="nav-item active">
+      <a href="../update" class="nav-link bg-info">Updation Page</a>
+        </li> 
+  </div>
+</nav>
+<br>
+{{>header}}<br><br><br><br><br>
+<marquee  direction="left" style="text-align: center; color:gold;"><h3>Hello! this is Updated page.....Welcome!!!!!</h3></marquee>
+<b><p style="text-align: center;">Here this is update after deployment!!</p></b>
+<h1 class="text-success " style="text-align: center;" >Seeing this Page after app deployed!!!</h1>
+<br><br><br><br><br><br>
+{{>footer}}
+    </body>
+</html>
