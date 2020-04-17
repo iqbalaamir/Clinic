@@ -1,0 +1,103 @@
+<html>
+    <head>{{>head}}</head>
+    <body>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light align-items-center">
+  <a class="navbar-brand" href="#">Clinic</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="../">Home</a>
+      </li>
+         <li class="nav-item ">
+        <a class="nav-link" href="../about">About Us</a>
+      </li>       
+         <li class="nav-item ">
+        <a class="nav-link" href="../doc">Doctors Appointment</a>
+      </li>
+         <li class="nav-item active">
+        <a class="nav-link bg-info" href="../cancel">Cancelled Appointment</a>
+      </li>     
+      <li class="nav-item">
+      <a href="../update" class="nav-link">Updation Page</a>
+        </li>   
+        </div>
+      </li>
+  </div>
+</nav>
+<br>
+<center>{{>header}}</center>
+<br>
+<table class="table table-bordered table-hover table-warning">
+     <tr class="bg-dark text-light">
+      <th> S.No </th>
+      <th> Booking ID </th>
+      <th> Name of Patient </th>
+      <th> Date of Appointment</th>
+      <th> Actual Amount </th>
+      <th> Cancellation Charge </th>
+      <th> Refund Amount </th>
+    </tr>
+    <tr>
+      <td> 01 </td>
+      <td> 01 </td>
+      <td> Damon </td>
+      <td> 10 May 2020 </td>
+      <td> Rs.6000 </td>
+      <td> Rs.500 </td>
+      <td class="table-primary"> Rs.5500 </td>
+    </tr>
+
+    <tr>
+      <td> 02 </td>
+      <td> 02 </td>
+      <td> Jenna </td>
+      <td> 25 May 2020 </td>
+      <td> Rs.10,000 </td>
+      <td> Rs.4,00 </td>
+      <td class="table-primary"> Rs.9600 </td>
+    </tr>
+
+    <tr>
+      <td> 03 </td>
+      <td> 03 </td>
+      <td> Alaric </td>
+      <td> 28 May 2020 </td>
+      <td> Rs.54,00</td>
+      <td> Rs.400 </td>
+      <td class="table-primary"> Rs.5000 </td>
+    </tr>
+
+
+    <tr>
+      <td> 04 </td>
+      <td> 04 </td>
+      <td> Bonnie </td>
+      <td> 01 June 2020 </td>
+      <td> Rs.4500 </td>
+      <td> Rs.300 </td>
+      <td class="table-primary"> Rs.4200 </td>
+    </tr>
+
+     <tr>
+      <td> 05 </td>
+      <td> 05 </td>
+      <td> Jeremy </td>
+      <td> 24 May 2020 </td>
+      <td> Rs.6600 </td>
+      <td> Rs.300 </td>
+      <td class="table-primary"> Rs.6300 </td>
+    </tr>
+    </table>
+  </div>
+
+</div>
+
+ {{>footer}}
+ </div> 
+
+    </body>
+</html>

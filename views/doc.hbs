@@ -1,0 +1,111 @@
+<html>
+    <head>
+        {{>head}}
+    </head>
+    <body style="background-image: url('https://wallpaperplay.com/walls/full/2/4/b/176845.jpg');" >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light align-items-center">
+  <a class="navbar-brand" href="#">Clinic</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="../">Home</a>
+      </li>
+         <li class="nav-item ">
+        <a class="nav-link" href="../about">About Us</a>
+      </li>       
+         <li class="nav-item active">
+        <a class="nav-link bg-info" href="../doc">Doctors Appointment</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="../cancel">Cancelled Appointment</a>
+      </li>     
+      <li class="nav-item">
+      <a href="../update" class="nav-link">Updation Page</a>
+        </li>   
+        </div>
+      </li>
+  </div>
+</nav>
+<br>
+<center>{{>header}}</center>
+<br>
+ <div class="container-fluid">
+        <h3 class="bg-warning"> Appointment </h3>
+        <table class="table table-sm table-bordered table-striped">
+         <tr class="table-danger" align="center"> 
+            <th> Booking ID </th>
+            <th> Paitient Name </th>
+            <th> Address </th>
+            <th> Disease </th>
+            <th> Doctor Name </th>
+            <th> Date of Appointment </th>
+            <th> Time </th>
+            
+            
+            
+        </tr>
+        <tr class="table-primary" align="center">
+            <td> 1 </td>
+            <td> {{ p_name1 }} </td>
+            <td> {{ address1 }} </td>
+            <td> {{ disease1 }} </td>
+            <td> {{d_name1}} </td>
+            <td> {{ date }} </td>
+            <td> {{ time }} </td>
+        </tr>
+        <tr class="table-primary" align="center">
+          <td>2</td>
+           <td> {{ p_name2 }} </td>
+            <td> {{ address2 }} </td>
+            <td> {{ disease2 }} </td>
+            <td> {{d_name2}} </td>
+            <td> {{ date }} </td>
+            <td> {{ time }} </td>
+
+        </tr>
+    </table>
+<h4 class=" bg-warning"> Gilberts Clinic</h4>
+   <img src="https://orthology.com/wp-content/uploads/2015/09/DSC6227-copy.jpg" height="245px" width="420px"> <br>  <br> <hr>
+ 
+   <h3 class=" bg-warning"> Details of Admit Patient </h3>
+        <table class="table table-sm table-bordered table-striped">
+         <tr class="table-danger" align="center"> 
+            <th> Booking ID </th>
+            <th> Patient Name </th>
+            <th> Doctor Name</th>
+            <th> Clinic name </th>
+            <th> Date of Admit </th>
+            <th> Time </th>
+            
+            
+            
+        </tr>
+        <tr class="table-primary" align="center">
+            <td>  1</td>
+            <td> {{ p_name2 }} </td>
+            <td> Dr.Gilbert </td>
+            <td> Gilberts Clinic </td>
+            <td> 17th July 2020 </td>
+            <td> 15:20hrs +IST </td>
+            
+            
+            
+        </tr>
+    </table>
+
+   
+ <h4 class="bg-warning"> Shift 2 </h4>
+   <img src="https://m.media-amazon.com/images/M/MV5BMmRmODg0ZGQtMDhlZS00ZTgzLTkyY2QtYmE1ZWE1NzExYzYyL2ltYWdlXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_.jpg" height="245px" width=420px> <br>  <br> <hr>
+ </div>
+
+
+
+       <center> {{>footer}} </center>
+
+
+</body>
+</html>
